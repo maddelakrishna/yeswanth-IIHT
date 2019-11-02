@@ -7,7 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 
 @SpringBootApplication
-@ComponentScan(basePackages = "com.iiht.foodorder")
+@ComponentScan(basePackages = "com.iiht.*")
 public class FoodOrderApplication {
 
 	public static void main(String[] args) {
