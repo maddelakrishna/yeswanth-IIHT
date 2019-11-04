@@ -1,5 +1,9 @@
 package com.iiht.foodorder.controllers;
 
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -10,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import com.iiht.foodorder.dao.CustomerRepostiory;
 import com.iiht.foodorder.models.Customer;
 import com.iiht.foodorder.models.CustomerLoginBean;
+import com.iiht.foodorder.models.Hotel;
 
 @Controller
 public class CustomerController {
@@ -69,14 +74,34 @@ public class CustomerController {
 		 
 		 @RequestMapping(value = "/registercust",method = RequestMethod.POST) 
 		 public String addcustomer(@ModelAttribute ("customer") Customer customer,Model model)
-		  { Customer
-		  cust = repostiory.save(customer); 
+		  { 
+			 Customer cust = repostiory.save(customer); 
 		  if(cust!=null) 
 		  {
 			  model.addAttribute("custLogin", new CustomerLoginBean());
 			  return "customer"; 
-			  } else
-		  { return "home"; } }
-		
+		  } 
+		  else
+		  { 
+			  return "home"; 
+		  } 
+		}
+		 @RequestMapping(value="/viewcustomer",method = RequestMethod.GET)
+		  public String member(Model model)
+		  {
+		  Iterable<Customer> customer= repostiory.findAll();
+		  Iterator<Customer> cust= customer.iterator();
+
+		  List<Customer>  customerList = new ArrayList<Customer>();
+
+		  while(cust.hasNext())
+		  {
+			  customerList.add(cust.next());
+		  }
+
+
+		  model.addAttribute("customerList",customerList);
+		  return "viewcustomer";
+		  }
 		
 }

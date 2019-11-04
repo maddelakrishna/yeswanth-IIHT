@@ -18,7 +18,7 @@
         <body background="admin1.jpg" style="margin-left: 30px;margin-right: 30px;background-size: cover;background-repeat: no-repeat;">
         
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="/"><i class="fas fa-search"></i></a>
+                <a class="navbar-brand" href="/"><img src="foodmania1.jpg" height="50px"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -86,6 +86,25 @@
                         </div>
                   </div>
               </div>
-             
+             <hr>
+    <div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <footer style="background-image:url('ft.jpg');border-radius: 10px;background-size: cover;">
+              <a href="/"><img src="foodmania2.jpg" width="100" height="60px"></a>
+              
+              <div style="color: white">        
+            <h6> <U>  Contact Us:</U><br></h6>
+            <small>  Customercare Number:<br>040-98765432,040-23456789</small><br>
+            <small>  Email Id: foodmania@delicious</small><br><br>
+          
+          <div align="center">@Copyright 2019-All Rights Reserved</div>
+        </div>
+          </footer>
+          </div>
+        </div>
+      </div>
+    </div>
 </body>
 </html>

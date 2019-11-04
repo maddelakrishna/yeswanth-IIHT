@@ -4,6 +4,7 @@
 <html>
 <head>
 <title>Food Ordering System</title>
+<meta charset="ISO-8859-1">
 <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -13,10 +14,10 @@
   <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 
 </head>
-<body style="margin-left: 30px;margin-right: 30px;">
+<body background="cover.jpg" style="margin-left: 30px;margin-right: 30px;">
   
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="/"><i class="fab fa-kickstarter-k"></i></a>
+        <a class="navbar-brand" href="/"><img src="foodmania1.jpg" height="50px"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -30,7 +31,7 @@
                 <a class="nav-link" href="admin"><i class="fas fa-user-shield"></i></a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="hotel.html">Hotel</a>
+                <a class="nav-link" href="hotel">Hotel</a>
             </li>
             
           </ul>
@@ -129,10 +130,10 @@
         <div class="row">
           <div class="col-md-6">
               <div style="height: 150px; background-color:#FBF3F3 ; border-radius: 5px;">
-                <a href="bawarchi"><img src="Bawarchi.jpg" width="160px" height="110px" style="margin-top: 10px; margin-left: 15px; margin-bottom: 10px ; border-radius: 8px;">
+                <a href="bawarchi"><img src="baw.jpg" width="160px" height="110px" style="margin-top: 10px; margin-left: 15px; margin-bottom: 10px ; border-radius: 8px;">
                 <div  style="float: right;margin-right: 175px; margin-top: 10px;">
                   <h5>Bawarchi</h5></a>
-                  <small>₹.North Indian.South Indian.Grill</small>
+                  <small><span style='font-family:Arial;'>&#8377;</span>.North Indian.South Indian.Grill</small>
                 </div>
               </div>
           </div>
@@ -141,7 +142,7 @@
                 <a href="thickshake"><img src="Thickfactory.jpeg" width="160px" height="110px" style="margin-top: 10px; margin-left: 15px; margin-bottom: 10px ; border-radius: 8px;">
                   <div  style="float: right;margin-right: 175px; margin-top: -4px;"><br>
                     <h5>ThickShake Factory</h5></a>
-                    <small>₹.Juice and Smoothies</small>
+                    <small><span style='font-family:Arial;'>&#8377;</span>.Juice and Smoothies</small>
                   </div>
                 </div> 
           </div>
@@ -156,7 +157,7 @@
               <a href="udipi"><img src="udipi.jpg" width="160px" height="110px" style="margin-top: 10px; margin-left: 15px; margin-bottom: 10px ; border-radius: 8px;">
               <div  style="float: right;margin-right: 220px; margin-top: 15px;">
                 <h5>Udipi Tiffin's</h5></a>
-                <small>₹.70mm Dosa.pizza Dosa</small><br>
+                <small><span style='font-family:Arial;'>&#8377;</span>.70mm Dosa.pizza Dosa</small><br>
                 
               </div>
             </div>
@@ -166,19 +167,19 @@
               <a href="pullareddy"> <img src="pulla reddy.jpg" width="160px" height="110px" style="margin-top: 10px; margin-left: 15px; margin-bottom: 10px ; border-radius: 8px;">
                 <div  style="float: right;margin-right: 220px; margin-top: -6px;"><br>
                   <h5>Pulla Reddy</h5></a>
-                  <small>₹ G.Pure Ghee Sweets</small>
+                  <small><span style='font-family:Arial;'>&#8377;</span> G.Pure Ghee Sweets</small>
                 </div>
               </div> 
         </div>
         </div>
       </div>
-  <hr>
+         <hr>
     <div>
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-md-12">
-          <footer style="background-image:url('ft.jpg');">
-              <img src="foodmania2.jpg" width="100" height="60px">
+          <footer style="background-image:url('ft.jpg');border-radius: 10px;background-size: cover;">
+              <a href="/"><img src="foodmania2.jpg" width="100" height="60px"></a>
               
               <div style="color: white">        
             <h6> <U>  Contact Us:</U><br></h6>
@@ -192,7 +193,7 @@
         </div>
       </div>
     </div>
-</hr>
+
 </body>
 
 </html>

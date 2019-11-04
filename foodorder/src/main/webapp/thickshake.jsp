@@ -4,6 +4,7 @@
 <html>
 <head>
 <title>Food Ordering System</title>
+<meta charset="ISO-8859-1">
 <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -52,58 +53,78 @@
                   </div>
                 </div><br><br>
                 <h1>Breakfast Shakes</h1>
-            <hr><a><img src="veg.jpg" height="20px">JSuperman Shakes<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹189</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="veg.jpg" height="20px">Wonder Women Shakes<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹189</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="veg.jpg" height="20px">Dark Knight<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹189</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr><br><br>
+            <hr>
+            <img src="veg.jpg" height="20px">JSuperman Shakes<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>189
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <img src="veg.jpg" height="20px">Wonder Women Shakes<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>189
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <img src="veg.jpg" height="20px">Dark Knight<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>189
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button><br><br>
 
             <h1>Classic Shakes</h1>
-            <hr><a><img src="veg.jpg" height="20px">Mexican Vanilla<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹179</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="veg.jpg" height="20px">Crunchy Butterscotch<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹179</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="veg.jpg" height="20px">BlueBerry Delight<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹179</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="veg.jpg" height="20px">Triple Delight<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹179/hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="veg.jpg" height="20px">Chocochips Caramel<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹179</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="veg.jpg" height="20px">VeryDelight<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹179</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr><br><br>
+            <hr>
+            <img src="veg.jpg" height="20px">Mexican Vanilla<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>179
+
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <img src="veg.jpg" height="20px">Crunchy Butterscotch<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>179</hr>
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <img src="veg.jpg" height="20px">BlueBerry Delight<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>179
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <img src="veg.jpg" height="20px">Triple Delight<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>179
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <img src="veg.jpg" height="20px">Chocochips Caramel<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>179
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <img src="veg.jpg" height="20px">VeryDelight<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>179
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button><br><br>
 
             <h1>Candy Delights</h1>
-            <hr><a><img src="veg.jpg" height="20px">Candy Fantacy<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹200</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="veg.jpg" height="20px">Kit Kat<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹190</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="veg.jpg" height="20px">Oreo Nutella<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹240</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="veg.jpg" height="20px">Gems Shake<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹190</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-           <hr><a><img src="veg.jpg" height="20px">Ferro Rocher<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹210</hr>
-           <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr><br><br>
+            <hr>
+            <img src="veg.jpg" height="20px">Candy Fantacy<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>200
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <img src="veg.jpg" height="20px">Kit Kat<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>190
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <img src="veg.jpg" height="20px">Oreo Nutella<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>240
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <img src="veg.jpg" height="20px">Gems Shake<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>190
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+           <hr>
+           <img src="veg.jpg" height="20px">Ferro Rocher<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>210
+           <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button><br><br>
 
             <h1>Fruity Delights</h1>
-            <hr><a><img src="veg.jpg" height="20px">Pineapple Passion<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹140</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="veg.jpg" height="20px">Strawberry Chocochip<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹250</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="veg.jpg" height="20px">Lovely Litchi<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹255</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="veg.jpg" height="20px">Banana Havana<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹185</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="veg.jpg" height="20px">Mango Blast<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹185</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
+            <hr>
+            <img src="veg.jpg" height="20px">Pineapple Passion<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>140
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <img src="veg.jpg" height="20px">Strawberry Chocochip<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>250</hr>
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <img src="veg.jpg" height="20px">Lovely Litchi<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>255
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <img src="veg.jpg" height="20px">Banana Havana<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>185
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <img src="veg.jpg" height="20px">Mango Blast<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>185
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
           
-  <hr>
+     <hr>
     <div>
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-md-12">
-          <footer style="background-image:url('ft.jpg');">
-              <img src="foodmania2.jpg" width="100" height="60px">
+          <footer style="background-image:url('ft.jpg');border-radius: 10px;background-size: cover;">
+              <a href="/"><img src="foodmania2.jpg" width="100" height="60px"></a>
               
               <div style="color: white">        
             <h6> <U>  Contact Us:</U><br></h6>
@@ -117,7 +138,6 @@
         </div>
       </div>
     </div>
-</hr>           
           
 </body>
 

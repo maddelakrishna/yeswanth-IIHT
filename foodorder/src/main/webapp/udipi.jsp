@@ -4,6 +4,7 @@
 <html>
 <head>
 <title>Food Ordering System</title>
+<meta charset="ISO-8859-1">
 <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -47,62 +48,80 @@
     <hr>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                  <img src="udipi.jpg" width="1150" height="350">
+                  <img src="udipi.jpg" width="1300" height="350">
                   
                   </div>
                 </div><br><br>
                 <h1>Breakfast(Idli & Vada)</h1>
-            <hr><a><img src="veg.jpg" height="20px">Plate Idli<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹35</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="veg.jpg" height="20px">Sambar Idli<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹45</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="veg.jpg" height="20px">Plate Idli & Vada (1Pc) Sambar<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹65</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="veg.jpg" height="20px">vada<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹53</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr><br><br>
+            <hr>
+            <img src="veg.jpg" height="20px">Plate Idli<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>35
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <img src="veg.jpg" height="20px">Sambar Idli<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>45
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <img src="veg.jpg" height="20px">Plate Idli & Vada (1Pc) Sambar<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>65
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <img src="veg.jpg" height="20px">vada<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>53
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button><br><br>
 
             <h1>Dosa</h1>
-            <hr><a><img src="veg.jpg" height="20px">70mm Dosa<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹79</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="veg.jpg" height="20px">Masala Rava Dosa<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹70</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="veg.jpg" height="20px">Paneer Dosa<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹85</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="veg.jpg" height="20px">Paper Dosa<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹75</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
+            <hr>
+            <img src="veg.jpg" height="20px">70mm Dosa<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>79
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <img src="veg.jpg" height="20px">Masala Rava Dosa<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>70
+            <button class="btn btn-success" style="float: right; margin-right:60px;">Add Cart</button>
+            <hr>
+            <img src="veg.jpg" height="20px">Paneer Dosa<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>85
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <img src="veg.jpg" height="20px">Paper Dosa<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>75
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
             <br><br>
 
             <h1>Fries,Bath & Pongal</h1>
-            <hr><a><img src="veg.jpg" height="20px">Pongal<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹55</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="veg.jpg" height="20px">Tomato Bath<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹40</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="veg.jpg" height="20px">Aloo 65<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹80</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="veg.jpg" height="20px">Paneer 65<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹120</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-           <hr><a><img src="veg.jpg" height="20px">Gobi Manchurian<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹80</hr>
-           <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr><br><br>
+            <hr>
+            <img src="veg.jpg" height="20px">Pongal<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>55
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <img src="veg.jpg" height="20px">Tomato Bath<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>40
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <img src="veg.jpg" height="20px">Aloo 65<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>80
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <img src="veg.jpg" height="20px">Paneer 65<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>120
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+           <hr>
+           <img src="veg.jpg" height="20px">Gobi Manchurian<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>80
+           <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button><br><br>
 
             <h1>Meals</h1>
-            <hr><a><img src="veg.jpg" height="20px">Mini Meals Parcel<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹80</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="veg.jpg" height="20px">Full Meals Parcel<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹110</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="veg.jpg" height="20px">veg Biriyani<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹120</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="veg.jpg" height="20px">Tamato Rice<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹80</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="veg.jpg" height="20px">Curd Rice<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹60</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
+            <hr>
+            <img src="veg.jpg" height="20px">Mini Meals Parcel<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>80
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <img src="veg.jpg" height="20px">Full Meals Parcel<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>110
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <img src="veg.jpg" height="20px">veg Biriyani<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>120
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <img src="veg.jpg" height="20px">Tamato Rice<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>80
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <img src="veg.jpg" height="20px">Curd Rice<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>60
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
           
-  <hr>
+     <hr>
     <div>
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-md-12">
-          <footer style="background-image:url('ft.jpg');">
-              <img src="foodmania2.jpg" width="100" height="60px">
+          <footer style="background-image:url('ft.jpg');border-radius: 10px;background-size: cover;">
+              <a href="/"><img src="foodmania2.jpg" width="100" height="60px"></a>
               
               <div style="color: white">        
             <h6> <U>  Contact Us:</U><br></h6>
@@ -116,7 +135,6 @@
         </div>
       </div>
     </div>
-</hr>           
           
 </body>
 

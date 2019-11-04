@@ -4,6 +4,7 @@
 <html>
 <head>
 <title>Food Ordering System</title>
+<meta charset="ISO-8859-1">
 <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -47,61 +48,80 @@
     <hr>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                  <img src="pulla reddy.jpg" width="1170" height="400">
+                  <img src="pulla reddy.jpg" width="1300" height="400">
                   
                   </div>
                 </div><br><br>
                 <h1>Sweets</h1>
-            <hr><a><img src="veg.jpg" height="20px">Special Assorted Sweets<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹270</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="veg.jpg" height="20px">Ghee Kaju Pakoda<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹160</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="veg.jpg" height="20px">Badam Kathli<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹330</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="veg.jpg" height="20px">Kesar Anjeer Roll<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹320</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="veg.jpg" height="20px">Moongdal (250 gms)<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹105</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="veg.jpg" height="20px">Coconut Raisin (250 gms)<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹90</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="veg.jpg" height="20px">Mango Burfi<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹150/hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="veg.jpg" height="20px">Badusha<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹150</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="veg.jpg" height="20px">Kova Puri<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹330</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr><br><br>
+            <hr>
+            <img src="veg.jpg" height="20px">Special Assorted Sweets<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>270
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <img src="veg.jpg" height="20px">Ghee Kaju Pakoda<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>160
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <img src="veg.jpg" height="20px">Badam Kathli<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>330
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <img src="veg.jpg" height="20px">Kesar Anjeer Roll<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>320
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <img src="veg.jpg" height="20px">Moongdal (250 gms)<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>105
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <img src="veg.jpg" height="20px">Coconut Raisin (250 gms)<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>90
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <img src="veg.jpg" height="20px">Mango Burfi<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>150
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <img src="veg.jpg" height="20px">Badusha<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>150
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <img src="veg.jpg" height="20px">Kova Puri<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>330
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button><br><br>
 
             <h1>Spcl.Combo's</h1>
-            <hr><a><img src="veg.jpg" height="20px">Boondi Laddu (250 gms) + Bandar Laddu (250 gms)<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹330</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="veg.jpg" height="20px">Kaju Katli (250 gms) + Kaju Roll (250 gms)<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹660</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="veg.jpg" height="20px">Badam Roll (250 gms) + Badam Katli (250 gms)<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹660</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="veg.jpg" height="20px">Mysore Pak (250 gms) + Milk Mysore Pak (250 gms)<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹440</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-           <hr><a><img src="veg.jpg" height="20px">Doodh Peda (250 gms) + Kesar Peda (250 gms)<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹300</hr>
-           <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr><br><br>
+            <hr>
+            <img src="veg.jpg" height="20px">Boondi Laddu (250 gms) + Bandar Laddu (250 gms)<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>330
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <img src="veg.jpg" height="20px">Kaju Katli (250 gms) + Kaju Roll (250 gms)<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>660
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <img src="veg.jpg" height="20px">Badam Roll (250 gms) + Badam Katli (250 gms)<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>660
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <img src="veg.jpg" height="20px">Mysore Pak (250 gms) + Milk Mysore Pak (250 gms)<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>440
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+           <hr>
+           <img src="veg.jpg" height="20px">Doodh Peda (250 gms) + Kesar Peda (250 gms)<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>300
+           <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button><br><br>
 
             <h1>Pickels & Powders</h1>
-            <hr><a><img src="veg.jpg" height="20px">Idli Karam Powder (Without Garlic) (200 gms)<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹95</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="veg.jpg" height="20px">Chekkalu (350 gms)<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹145</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="veg.jpg" height="20px">Gongura Pickle<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹130</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="veg.jpg" height="20px">Gongura Redchilli Pickle<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹135</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="veg.jpg" height="20px">Redchilli Pickle<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹140</hr>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
+            <hr>
+            <img src="veg.jpg" height="20px">Idli Karam Powder (Without Garlic) (200 gms)<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>95
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <img src="veg.jpg" height="20px">Chekkalu (350 gms)<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>145
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <img src="veg.jpg" height="20px">Gongura Pickle<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>130
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <img src="veg.jpg" height="20px">Gongura Redchilli Pickle<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>135
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <img src="veg.jpg" height="20px">Redchilli Pickle<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>140
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
           
-  <hr>
+     <hr>
     <div>
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-md-12">
-          <footer style="background-image:url('ft.jpg');">
-              <img src="foodmania2.jpg" width="100" height="60px">
+          <footer style="background-image:url('ft.jpg');border-radius: 10px;background-size: cover;">
+              <a href="/"><img src="foodmania2.jpg" width="100" height="60px"></a>
               
               <div style="color: white">        
             <h6> <U>  Contact Us:</U><br></h6>
@@ -115,7 +135,6 @@
         </div>
       </div>
     </div>
-</hr>           
           
 </body>
 

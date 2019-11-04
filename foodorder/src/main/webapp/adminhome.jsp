@@ -8,5 +8,12 @@
 </head>
 <body>
 <h1>Welcome, ${adminLoginMessage }</h1>
+<fieldset>
+<legend>Admin</legend>
+<a href="viewhotel">view Hotels</a>
+<a href="viewcustomer">View Customer</a>
+
+</fieldset>
+
 </body>
 </html>

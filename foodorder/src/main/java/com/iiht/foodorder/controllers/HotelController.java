@@ -1,4 +1,8 @@
 package com.iiht.foodorder.controllers;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -22,23 +26,21 @@ public class HotelController {
 		  
 		  return "hotel";
 	  }
-	  @RequestMapping(value = "/registerhotel",method = RequestMethod.POST)
-	  public String hotelregister(@ModelAttribute("hotel") Hotel hotel,Model model)
-	  {
-		  Hotel hot = repostiory.save(hotel);
-		 
-		  
-		  if(hot!=null)
-		  {
-			  model.addAttribute("hotelReg", "Successfully Registered");
-			  return "admin";
-		  }
-		  else
-		  {
-			  model.addAttribute("hotelReg", "Not Registered");
-			  return "hotel";
-		  }
-	  }
+	 @RequestMapping(value = "/registerhotel",method = RequestMethod.POST)
+	 public String registerhotel(@ModelAttribute("hotel") Hotel hotel,Model model)
+	 {
+		 Hotel hotels = repostiory.save(hotel);
+		 if(hotels!=null)
+		 {
+			 model.addAttribute("hotelMessage ", "Successfully Added");
+			 return "hotel";
+		 }
+		 else
+		 {
+			 model.addAttribute("hotelMessage ", "Not Registered");
+			 return "hotel";
+		 }
+	 }
 	
 	  @RequestMapping(value = "/bawarchi",method =RequestMethod.GET)
 	  public String bawarchi() 
@@ -76,4 +78,22 @@ public class HotelController {
 		  return "udipi"; 
 		  
 	  }
+	  @RequestMapping(value="/viewhotel",method = RequestMethod.GET)
+	  public String member(Model model)
+	  {
+	  Iterable<Hotel> hotel= repostiory.findAll();
+	  Iterator<Hotel> hotels= hotel.iterator();
+
+	  List<Hotel>  hotelList = new ArrayList<Hotel>();
+
+	  while(hotels.hasNext())
+	  {
+		  hotelList.add(hotels.next());
+	  }
+
+
+	  model.addAttribute("hotelList",hotelList);
+	  return "viewhotel";
+	  }
+
 }

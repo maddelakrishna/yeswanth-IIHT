@@ -4,6 +4,7 @@
 <html>
 <head>
 <title>Food Ordering System</title>
+<meta charset="ISO-8859-1">
 <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -52,48 +53,61 @@
                 </div> 
                 </div><br><br>
                 <h1>Starters</h1>
-                <hr> <a><img src="veg.jpg" height="20px"> Chilli Panner<br> &nbsp;&nbsp;&nbsp;&nbsp; ₹125 </a>
-                <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="veg.jpg" height="20px">Panner65<br>  &nbsp;&nbsp;&nbsp;&nbsp;₹125</a>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="veg.jpg" height="20px">Vegitable Manchuria<br> &nbsp;&nbsp;&nbsp;&nbsp;₹106</a>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr><br><br>
+                <hr> 
+                <a><img src="veg.jpg" height="20px"> Chilli Panner<br> &nbsp;&nbsp;&nbsp;&nbsp; <span style='font-family:Arial;'>&#8377;</span>125 </a>
+                <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <a><img src="veg.jpg" height="20px">Panner65<br>  &nbsp;&nbsp;&nbsp;&nbsp;<span style='font-family:Arial;'>&#8377;</span>125</a>
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <a><img src="veg.jpg" height="20px">Vegitable Manchuria<br> &nbsp;&nbsp;&nbsp;&nbsp;<span style='font-family:Arial;'>&#8377;</span>106</a>
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button><br><br>
             
             <h1>Sea Food</h1>
-            <hr><a><img src="Non-Veg.jpg" height="15px">Apollo Fish<br> &nbsp;&nbsp;&nbsp;&nbsp;₹190</a>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="Non-Veg.jpg" height="15px">Loose Prawns<br> &nbsp;&nbsp;&nbsp;&nbsp;₹190</a>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr><br><br>
+            <hr>
+            <a><img src="Non-Veg.jpg" height="15px">Apollo Fish<br> &nbsp;&nbsp;&nbsp;&nbsp;<span style='font-family:Arial;'>&#8377;</span>190</a>
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <a><img src="Non-Veg.jpg" height="15px">Loose Prawns<br> &nbsp;&nbsp;&nbsp;&nbsp;<span style='font-family:Arial;'>&#8377;</span>190</a>
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button><br><br>
             
             <h1>Chicken</h1>
-            <hr><a><img src="Non-Veg.jpg" height="15px">Tandoori Chicken<br> &nbsp;&nbsp;&nbsp;&nbsp;₹144</a>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="Non-Veg.jpg" height="15px">Tangdi Kebab<br> &nbsp;&nbsp;&nbsp;&nbsp;₹150</a>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="Non-Veg.jpg" height="15px">Chiken Tikka<br> &nbsp;&nbsp;&nbsp;&nbsp;₹120</a>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="Non-Veg.jpg" height="15px">Chiken Chops<br> &nbsp;&nbsp;&nbsp;&nbsp;₹50</a>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="Non-Veg.jpg" height="15px">Pepper Chicken<br> &nbsp;&nbsp;&nbsp;&nbsp;₹180</a>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr><br><br>
+            <hr>
+            <a><img src="Non-Veg.jpg" height="15px">Tandoori Chicken<br> &nbsp;&nbsp;&nbsp;&nbsp;<span style='font-family:Arial;'>&#8377;</span>144</a>
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <a><img src="Non-Veg.jpg" height="15px">Tangdi Kebab<br> &nbsp;&nbsp;&nbsp;&nbsp;<span style='font-family:Arial;'>&#8377;</span>150</a>
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <a><img src="Non-Veg.jpg" height="15px">Chiken Tikka<br> &nbsp;&nbsp;&nbsp;&nbsp;<span style='font-family:Arial;'>&#8377;</span>120</a>
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <a><img src="Non-Veg.jpg" height="15px">Chiken Chops<br> &nbsp;&nbsp;&nbsp;&nbsp;<span style='font-family:Arial;'>&#8377;</span>50</a>
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <a><img src="Non-Veg.jpg" height="15px">Pepper Chicken<br> &nbsp;&nbsp;&nbsp;&nbsp;<span style='font-family:Arial;'>&#8377;</span>180</a>
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button><br><br>
 
             <h1>Chicken Main Course</h1>
-            <hr><a><img src="veg.jpg" height="15px">Butter Chicken With Bone<br> &nbsp;&nbsp;&nbsp;&nbsp;₹134</a>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="veg.jpg" height="15px">Boneless Butter Chicken<br> &nbsp;&nbsp;&nbsp;&nbsp;₹172</a>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="veg.jpg" height="15px">Kadai Chicken with Bone<br> &nbsp;&nbsp;&nbsp;&nbsp;₹155</a>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr>
-            <hr><a><img src="veg.jpg" height="15px">Dum ka Chicken with Bone<br> &nbsp;&nbsp;&nbsp;&nbsp;₹185</a>
-            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button></hr><br><br>
-          
-  <hr>
+            <hr>
+            <a><img src="veg.jpg" height="15px">Butter Chicken With Bone<br> &nbsp;&nbsp;&nbsp;&nbsp;<span style='font-family:Arial;'>&#8377;</span>134</a>
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <a><img src="veg.jpg" height="15px">Boneless Butter Chicken<br> &nbsp;&nbsp;&nbsp;&nbsp;<span style='font-family:Arial;'>&#8377;</span>172</a>
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <a><img src="veg.jpg" height="15px">Kadai Chicken with Bone<br> &nbsp;&nbsp;&nbsp;&nbsp;<span style='font-family:Arial;'>&#8377;</span>155</a>
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button>
+            <hr>
+            <a><img src="veg.jpg" height="15px">Dum ka Chicken with Bone<br> &nbsp;&nbsp;&nbsp;&nbsp;<span style='font-family:Arial;'>&#8377;</span>185</a>
+            <button class="btn btn-success" style="float: right; margin-right: 60px;">Add Cart</button><br><br>
+   <hr>
     <div>
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12">
-          <footer style="background-image:url('ft.jpg');">
-              <img src="foodmania2.jpg" width="100" height="60px">
+          <footer style="background-image:url('ft.jpg');border-radius: 10px;background-size: cover;">
+              <a href="/"><img src="foodmania2.jpg" width="100" height="60px"></a>
               
               <div style="color: white">        
             <h6> <U>  Contact Us:</U><br></h6>
@@ -107,7 +121,6 @@
         </div>
       </div>
     </div>
-</hr>
 </body>
 
 </html>
